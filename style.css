@@ -1,4 +1,12 @@
 /* Fix to make the h1 visible */
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+body {
+    color: purple;
+}
 h1 {
     visibility: visible;
     color: inherit; /* Ensure text color is not blending with the background */
