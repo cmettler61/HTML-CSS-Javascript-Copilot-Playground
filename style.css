@@ -1,3 +1,45 @@
 *{
-    color:red
+    color:purple
 }
+/* font style sansserif */
+body{
+    font-family: sans-serif;
+}   
+/ * font weight thin */
+h1{
+    font-weight: thin;
+}   
+
+button {
+    background-color: rgb(64, 175, 212);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: deepskyblue;
+}
+ul {
+    list-style-type: none;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+h1 {
+    color: rgb(226, 70, 96);
+}
+
