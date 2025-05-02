@@ -1,8 +1,21 @@
-git add style.css
-git commit -m "Add style.css for styling the HTML page"
-git push origin main    
-*{
-    color:purple
+/* Fix to make the h1 visible */
+h1 {
+    visibility: visible;
+    color: inherit; /* Ensure text color is not blending with the background */
+  }
+
+h1 {
+    text-align: center;
+}
+h1 {
+    color: rgb(226, 70, 96);
+}
+
+/* Removed universal color rule to avoid overriding specific styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 /* font style sansserif */
 body{
@@ -37,12 +50,5 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
-}
-
-h1 {
-    text-align: center;
-}
-h1 {
-    color: rgb(226, 70, 96);
 }
 
