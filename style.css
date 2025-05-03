@@ -3,7 +3,10 @@ img {
     display: block;
     margin: 0 auto;
 }
-
+p {
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
 body {
     color: purple;
 }
