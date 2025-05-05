@@ -9,6 +9,8 @@ p {
 }
 body {
     color: purple;
+    line-height: 1.6;
+    margin-bottom: 1em;
 }
 h1 {
     visibility: visible;
