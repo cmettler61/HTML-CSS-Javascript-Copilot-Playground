@@ -40,7 +40,16 @@ body{
 h1{
     font-weight: thin;
 }   
+button {
+    display: inline-block;
+    margin: 0 10px;
+}
 
+button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
 button {
     background-color: rgb(76, 160, 255);
     color: white;
@@ -63,7 +72,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
 }
 
