@@ -1,8 +1,8 @@
 /* Fix to make the h1 visible */
-img {
-    display: block;
-    margin: 0 auto;
-}
+.hero-img {
+   object-fit: cover;
+  }
+
 p {
     line-height: 1.6;
     margin-bottom: 1em;
