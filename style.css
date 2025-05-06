@@ -1,5 +1,9 @@
 
-
+.hero-img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
 
 p {
     line-height: 1.6;
